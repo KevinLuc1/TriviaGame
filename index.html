@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+  </head>
+  <body>
+    <!-- <img src="assets/images/mario.jpg"> -->
+    <div class="container">
+      <div class="title">Super Mario Trivia</div>
+      
+     
+      <div class="clickButton">
+      <button id="clickHere" type="button">Click Here to Begin!</button>
+      </div>
+
+      <div class="timer">Time Remaining: <span id="timeLeft"></span></div>
+
+      <div class="questions">
+        <p>1. Who is older brother? Mario or Luigi? </p>
+          <form id="quiz" name="quiz">
+            <input type="radio" name="question1" value="1"> Mario<br>
+            <input type="radio" name="question1" value="2"> Luigi<br>
+            <input type="radio" name="question1" value="3"> They're not even related!<br>
+            <input type="radio" name="question1" value="4"> Yes 
+          </form> 
+        <br><br>
+        <p>2. "Mario" was never known as Mario before Nintendo released it in the US. What was Mario initially called? </p>
+          <form id="quiz" name="quiz">
+            <input type="radio" name="question2" value="5"> Plumberman<br>
+            <input type="radio" name="question2" value="6"> Mustacheman<br>
+            <input type="radio" name="question2" value="7"> Jumpman<br>
+            <input type="radio" name="question2" value="8"> Runningman  
+          </form> 
+        <br><br>
+        <p>3. Mario originally was not a plumber. What was his original occupation?</p>
+          <form id="quiz" name="quiz">
+            <input type="radio" name="question3" value="9"> Racing Driver<br>
+            <input type="radio" name="question3" value="10"> Construction Worker<br>
+            <input type="radio" name="question3" value="11"> Carpenter<br>
+            <input type="radio" name="question3" value="12"> He was always a plumber 
+          </form> 
+        <br><br>
+        <p>4. The flower power-up in Super Mario Bros makes you</p>
+          <form id="quiz" name="quiz">
+            <input type="radio" name="question4" value="13"> Grow bigger<br>
+            <input type="radio" name="question4" value="14"> Invincible<br>
+            <input type="radio" name="question4" value="15"> Jump higher<br>
+            <input type="radio" name="question4" value="16"> Throw fireballs
+          </form> 
+        <br><br>
+              <input type="button" value = "Submit" onclick = "check();">
+
+      </div>
+
+      <div class="quizDone">
+      <p>donedone</p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+	
+  <script src="assets/javascript/app.js"></script>
+  </body>
+</html>

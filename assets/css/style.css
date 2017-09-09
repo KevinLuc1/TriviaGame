@@ -1,0 +1,42 @@
+
+body {
+	background-image: url("https://r.mprd.se/media/images/46505-New_Super_Mario_Bros._(U)(Psyfer)-3.jpg");
+
+}
+
+.container {
+	background-color:white;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 40px;
+	margin-bottom: 200px;
+
+}
+
+.title {
+	font-family: 'Sedgwick Ave Display', cursive;
+	margin-bottom: 50px;
+	font-size: 70px;
+	text-align:center;
+	color: blue;
+}
+
+.clickButton {
+	text-align:center;
+	font-size: 24px;
+
+}
+
+.questions {
+	display:none;
+}
+
+.timer {
+	display:none;
+	margin-bottom: 40px;
+}
+
+.quizDone {
+	display:none;
+}
