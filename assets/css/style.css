@@ -1,6 +1,7 @@
 
 body {
 	background-image: url("https://r.mprd.se/media/images/46505-New_Super_Mario_Bros._(U)(Psyfer)-3.jpg");
+	opacity: 0.9;
 
 }
 
@@ -11,6 +12,10 @@ body {
 	margin-top: 200px;
 	padding: 40px;
 	margin-bottom: 200px;
+	text-align:center;
+	font-size: 20px;
+
+
 
 }
 
@@ -30,13 +35,33 @@ body {
 
 .questions {
 	display:none;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .timer {
 	display:none;
 	margin-bottom: 40px;
+	text-align:center;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+
+
 }
 
 .quizDone {
 	display:none;
+}
+
+#correctAnswer {
+	text-align:center;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size:28px;
+
+}
+
+#incorrectAnswer {
+	text-align:center;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size:28px;
+
 }
